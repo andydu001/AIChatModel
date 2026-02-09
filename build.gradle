@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // Source: https://mvnrepository.com/artifact/org.jbox2d/jbox2d-library
+    implementation 'org.jbox2d:jbox2d-library:2.2.1.1'
+    // Source: https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports
+    implementation 'net.sf.jasperreports:jasperreports:7.0.3'
+
+    // Source: https://mvnrepository.com/artifact/com.alibaba.cloud.ai/spring-ai-alibaba-agent-framework
+    implementation 'com.alibaba.cloud.ai:spring-ai-alibaba-agent-framework:1.1.2.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}
