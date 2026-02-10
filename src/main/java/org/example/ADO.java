@@ -71,7 +71,7 @@ public class ADO implements Observation {
     }
 
     @Override
-    public Scope openScope() {g
+    public Scope openScope() {
 
         return Scope.NOOP;
     }
