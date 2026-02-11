@@ -9,6 +9,7 @@ import io.micrometer.observation.ObservationConvention;
 public class ADO implements Observation {
     @Override
     public Observation contextualName(String contextualName) {
+
         return this;
     }
 
