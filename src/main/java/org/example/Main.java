@@ -60,7 +60,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws GraphRunnerException {
+    public static void main(String[] args) {
 
         List<ToolCallbackResolver> toolCallbackResolvers = new ArrayList<>();
 
